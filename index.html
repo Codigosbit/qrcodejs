@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear QR</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    
+    <div class="content">
+        <h3>Crear QR</h3>
+        <textarea name="" id="texto" cols="30" rows="10"></textarea>
+        <button type="button" onclick="generarQr()">Generar QR</button>
+        <button type="button" onclick="limpiar()">Limpiar</button>
+        <div class="qrcode"></div>
+    </div>
+
+</body>
+<script src="librerias/qrcode.min.js"></script>
+<script src="scripts/index.js"></script>
+</html>
